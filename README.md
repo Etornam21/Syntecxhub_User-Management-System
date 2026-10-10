@@ -98,13 +98,3 @@ valid credentials receive a `401 Unauthorized` response.
    - `PUT /api/users/:id` → `200 OK` with the updated user
    - `DELETE /api/users/:id` → `200 OK` with a confirmation message
 6. Try omitting the Authorization header to confirm you get a `401 Unauthorized`.
-
-Tip: Save these requests in a Postman Collection named "User Management System"
-so you can re-run and share them easily.
-
-## Submitting to GitHub
-
-Per the Syntecxhub internship requirements, push this project to a repository named:
-```
-Syntecxhub_User-Management-System
-```
